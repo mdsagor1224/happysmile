@@ -27,6 +27,7 @@ body{
 
 .header-area{
     background: #fff;
+    padding-bottom: 35px;
 }
 .header-top h3 {
     text-align: right;
@@ -75,8 +76,7 @@ body{
 .hero-text h2{
     color: #083973;
     text-align: center;
-    font-family: Owners Text;
-    font-size: 64px;
+     font-size: 64px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -133,3 +133,190 @@ body{
 .home-contact {
     margin-top: -100px;
 }
+
+/* header one */
+
+.header-img img{
+    border-radius: 26px;
+    box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header-text h2{
+    color: #083973;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+.header-text p{
+    color: #000;
+    text-transform: capitalize;
+    padding-bottom: 12px;
+}
+
+.primary-btn{
+    padding: 15px 23px;
+    border-radius: 39px;
+    background: #0D96CF;
+    border: none;
+}
+.primary-btn a{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.pt-100{
+    padding-top: 120px;
+}
+.pb-75{
+    padding-bottom: 75px;
+}
+
+.header-text {
+    padding-right: 32px;
+}
+
+.header-img {
+    padding-left: 32px;
+}
+
+
+/* services  */
+.service-text h2{
+    color: #083973;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.3em;
+    text-align: center;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.pb-80{
+    padding-bottom: 80px;
+}
+
+/* single service box */
+
+.single-service-box{
+    width: 420px;
+    border-radius: 26px;
+    background: #FFF;
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.16);
+}
+
+.service-icon h2{
+    color: #083973;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-left: 20px;
+    }
+
+.service-icon img{
+    height: 56px;
+    width: 56px;
+}
+.single-service-box {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+}
+
+.service-text {
+    padding-top: 20px;
+}
+.learn{
+    color: #0071A0;
+    font-weight: 500;
+    line-height: 1.3em;
+    text-transform: capitalize;
+}
+.service-text p {
+    padding-bottom: 10px;
+}
+
+.happy-smile {
+    position: relative;
+    z-index: 1;
+}
+
+.happy-smile:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    content: "";
+    border-radius: 0 400px 400px 0;
+    z-index: -1;
+    box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.25);
+}
+
+.single-smile-box img{
+    width: 315px;
+    border-radius: 26px;
+    background: #D9D9D9;
+    height: 200px;
+    
+}
+.single-smile-box {
+   padding-right: 118px;
+}
+
+.radial-smile {
+    padding-left: 113px;
+}
+.smile-text h2{
+    color: #0D96CF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.3em;
+    padding-top: 78px;
+    padding-bottom: 50px;
+}
+a.secondary-btn {
+    background: #164A87;
+    padding: 15px 23px;
+    color: #FFF;
+    font-family: Owners Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    border-radius: 39px;
+    
+}
+
+.single-smile-box {
+    padding-bottom: 80px;
+}
+
+.smile-btn {
+    padding-top: 30px;
+}
+
+.single-smile-box p {
+    line-height: 1.5em;
+}
+.single-smile-box h2{
+    padding-top: 34px;
+    color: #083973;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.3em;
+
+}
+.single-smile-box p{}
