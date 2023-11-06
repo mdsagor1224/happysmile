@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter:wght@400;500;700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-area{
+    background: #fff;
+}
+.header-top h3 {
+    text-align: right;
+    color: #0D96CF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+
+.mainmenu ul {
+    list-style: none;
+}
+
+.mainmenu a {
+    color: #083973;
+    padding: 15px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.social-btn img {
+    width: 33px;
+}
+
+/* hero area */
+
+.hero-bg{
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-text h2{
+    color: #083973;
+    text-align: center;
+    font-family: Owners Text;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 165px;
+}
+
+.hero-text h4{
+    color: #083973;
+    text-align: center;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-bottom: 210px;
+}
+
+/* office contact */
+.contact-bg{
+    border-radius: 117px;
+    background: linear-gradient(180deg, #083973 0%, #164A87 100%);
+    box-shadow: 0px 0px 21px 0px rgba(0, 0, 0, 0.36);
+
+}
+
+.single-office-contact img{
+    height: 70px;
+    width: 70px;
+}
+.single-contact-box h2{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.single-contact-box p{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.single-office-contact {
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.single-contact-box {
+    padding-bottom: 45px;
+    padding-left: 30px;
+}
+.single-contact-box h2 {padding-bottom: 10px;}
+.home-contact {
+    margin-top: -100px;
+}
